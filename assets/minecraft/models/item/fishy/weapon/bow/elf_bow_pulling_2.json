@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "item/fishy/weapon/bow/elf_bow_pulling_2"
+    }
+}

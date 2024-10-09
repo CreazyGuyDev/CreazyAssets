@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/acacia_chest_boat"
+  }, "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 10001000
+      },
+      "model": "item/backy/backpack/small_backpack"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 20001000
+      },
+      "model": "item/backy/backpack/medium_backpack"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30001000
+      },
+      "model": "item/backy/backpack/big_backpack"
+    }
+  ]
+}

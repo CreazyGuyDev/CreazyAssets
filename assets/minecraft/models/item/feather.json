@@ -1,0 +1,87 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/feather"
+  },
+  "display": {
+    "head": {
+      "rotation": [
+        0,
+        0,
+        45
+      ],
+      "translation": [
+        -1,
+        13,
+        7
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 11000000
+      },
+      "model": "item/fishy/common/frozen_netherite"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12000000
+      },
+      "model": "item/fishy/common/mythical_treasure_chest"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 21000000
+      },
+      "model": "item/fishy/common/epic_treasure_chest"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 31000000
+      },
+      "model": "item/fishy/common/epic_chest_key"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 51000000
+      },
+      "model": "item/fishy/common/emerald_shard_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 61000000
+      },
+      "model": "item/fishy/common/emerald_shard_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 71000000
+      },
+      "model": "item/fishy/common/legendary_chest_key"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 80000000
+      },
+      "model": "item/fishy/common/can"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 81000000
+      },
+      "model": "item/fishy/common/legendary_treasure_chest"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 91000000
+      },
+      "model": "item/fishy/common/mythical_chest_key"
+    }
+  ]
+}

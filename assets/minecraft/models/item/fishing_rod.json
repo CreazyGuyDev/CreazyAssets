@@ -1,0 +1,40 @@
+{
+  "parent": "item/handheld_rod",
+  "textures": {
+    "layer0": "item/fishing_rod"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "cast": 1
+      },
+      "model": "item/fishing_rod_cast"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 22000000
+      },
+      "model": "item/tool/rod/goblin_rod"
+    },
+    {
+      "predicate": {
+        "cast": 1,
+        "custom_model_data": 22000000
+      },
+      "model": "item/tool/rod/goblin_rod_cast"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 23000000
+      },
+      "model": "item/tool/rod/pirate_rod"
+    },
+    {
+      "predicate": {
+        "cast": 1,
+        "custom_model_data": 23000000
+      },
+      "model": "item/tool/rod/pirate_rod_cast"
+    }
+  ]
+}

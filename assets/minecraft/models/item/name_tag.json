@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/name_tag"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 72000000
+      },
+      "model": "item/fishy/common/wet_name_tag"
+    }
+  ]
+}
